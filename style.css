@@ -1,0 +1,83 @@
+body{
+
+    background-size: cover;
+}
+
+.header{
+
+    width: 100%;
+    text-align: center;
+    height: 65px;
+    background-color: indigo;
+}
+
+#heading{
+
+    font-size: 30px;
+}
+
+#start_button{
+
+    font-size: 20px;
+    background-color: darkslateblue;
+}
+
+#rules{
+
+    float: right;
+    border: 1px solid white;
+    margin-top: 0px;
+    background-color: cornflowerblue;
+}
+
+#canvas_holder{
+
+    border-color: aliceblue;
+    border-width: 3px;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    line-height:2;
+    width: 100%;
+    background-color: dodgerblue;
+    color:black;
+    font-size: 20px;
+
+}
+   
+
+#list{
+
+    text-align: left;
+    font-weight: bold;
+}
+
+#restart{
+
+    background-color: blueviolet;
+    font-size:20px;
+}
+
+#status_holder{
+
+    background-color: deepskyblue;
+    font-size: 20px;
+}
+
+canvas{
+
+    border: 5px dashed darkblue;
+    border-radius: 20px;
+    animation: gradient 3s infinite;
+}
+
+@keyframes gradient {
+    50% {border-color: rgb(13, 129, 191);}
+  }
+
+video{
+
+    border: 5px dotted rgb(187, 51, 187);
+}
